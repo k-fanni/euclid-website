@@ -1,7 +1,6 @@
 const colorThemes = document.querySelectorAll('.theme');
 
 function storeTheme(theme) {
-    // localStorage.setItem("theme", theme);
     document.cookie = `theme=${theme}; path=/`;
 };
 
